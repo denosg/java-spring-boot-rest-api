@@ -24,7 +24,9 @@ public class CourseController {
     public List<Course> fetchCourses() {
         return Arrays.asList(
                 new Course(1, "Learn AWS", "costelas"),
-                new Course(2, "Learn DevOps", "costelas")
+                new Course(2, "Learn DevOps", "costelas"),
+                new Course(3, "Learn Azure", "costelas"),
+                new Course(4, "Learn Firebase", "costelas")
         );
     }
 }
